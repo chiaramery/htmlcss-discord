@@ -240,12 +240,15 @@ hr{
 /* /Button */
 
 /* Wave */
-.waveg{
+.wave{
     filter: url(../img/wave.svg) opacity(0.1);
-    margin-bottom: -.2em;
+    margin-bottom: -0.25em;
 }
-.wavew{
-    filter: url(../img/wave.svg) opacity(0.6);
-    margin-top: -6em;
+
+.upside-down{
+    transform: rotate(180deg);
+    margin-top: -0.25em;
 }
+
+
 /* /Wave */
