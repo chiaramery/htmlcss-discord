@@ -8,12 +8,15 @@ html{
     font-family: Whitney, Arial, Helvetica, sans-serif;
     font-size: 100%;
 }
-
+ a{
+    text-decoration: none;
+ }
 
 /* HEADER */
 header{
     background-image: url(../img/jumbo.png); 
     background-position: center center;
+    background-size: cover;
 }
 .container{
     color: white;
@@ -76,12 +79,15 @@ header{
 }
 
 .bluebar{
-    width: 45%;
+    width: 60%;
     padding: 20px;
+} 
+.bluebar img{
+    width: 100%;
 } 
 
 .pinkbar{
-    width: 25%;
+    width: 40%;
     padding: 20px;
     margin-left: 3em;
 }
@@ -104,6 +110,9 @@ header{
     flex-direction: column;
     align-items: center;
     padding-bottom: 5em;
+}
+.squareg img{
+    width: 100%;
 }
 
 .squareg h1{
@@ -208,15 +217,14 @@ hr{
 
 /* Button */
 .button{
-    display: inline-block;
     border-radius: 20px;
-    padding: .6em 1em;
+    padding: .6em .6em;
     display: flex;
-    line-height: normal;
 }
 .bc{
     background-color: rgb(116 140 216);
     color: white;
+    margin-top: .5em;
 }
 
 .bw{
