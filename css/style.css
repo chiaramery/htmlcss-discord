@@ -46,7 +46,6 @@ header{
     text-decoration: none;
     color: white;
     margin: .5em;
-    text-align: center;
 }
 
 /* /Navbar */
@@ -74,8 +73,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 .bluebar{
@@ -130,7 +129,8 @@ header{
 }
 
 .bcg{
-    background-color:rgb(246 246 246);
+    background-color:rgb(230 230 230);
+    padding-bottom: 4em;
 }
 /* /Sezione 4 */
 
@@ -238,3 +238,14 @@ hr{
     color: white;
 }
 /* /Button */
+
+/* Wave */
+.waveg{
+    filter: url(../img/wave.svg) opacity(0.1);
+    margin-bottom: -.2em;
+}
+.wavew{
+    filter: url(../img/wave.svg) opacity(0.6);
+    margin-top: -6em;
+}
+/* /Wave */
