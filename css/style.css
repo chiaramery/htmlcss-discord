@@ -130,7 +130,7 @@ header{
 }
 
 .bcg{
-    background-color:rgb(230 230 230);
+    background-color: #d3d3d3;;
     padding-bottom: 4em;
 }
 /* /Sezione 4 */
@@ -249,14 +249,13 @@ hr{
 /* /Button */
 
 /* Wave */
-.wave{
-    filter: url(../img/wave.svg) opacity(0.1);
-    margin-bottom: -0.25em;
+img.wave{
+    display: block;
 }
 
-.upside-down{
-    transform: rotate(180deg);
-    margin-top: -0.25em;
+img.upside-down{
+    transform: rotateX(180deg); 
+    margin-top: -1px;
 }
 /* /Wave */
 
