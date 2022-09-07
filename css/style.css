@@ -14,8 +14,7 @@ html{
 
 /* HEADER */
 header{
-    background-image: url(../img/jumbo.png); 
-    background-position: center center;
+    background-image: url(../img/jumbo.png);
     background-size: cover;
 }
 .container{
@@ -66,6 +65,7 @@ header{
     align-items: center;
     margin-top: 1em;
     margin-bottom: 1em;
+    text-align: center;
 }
 /* MAIN */
 /* Sezione 1 */
@@ -89,8 +89,7 @@ header{
 .pinkbar{
     width: 40%;
     padding: 20px;
-    margin-left: 3em;
-}
+} 
 
 .pinkbar h2{
     margin-bottom: .8em;
@@ -110,6 +109,7 @@ header{
     flex-direction: column;
     align-items: center;
     padding-bottom: 5em;
+    text-align: center;
 }
 .squareg img{
     width: 100%;
@@ -173,7 +173,9 @@ footer{
 .celestino{
     color:  rgb(116 140 216);
 }
-
+.icons{
+    display: flex;
+}
 .icons i{
     color: white;
     padding-right: .6em;
@@ -189,9 +191,14 @@ footer{
     text-decoration: none;
 }
 
-.footer-row .col ul li {
+.footer-row .col ul li{
     padding-top: .8em;
 }
+
+.footer-row .colo h3{
+    margin-bottom: 1em;
+}
+
 hr{
     margin: 2em auto;
     width: 70%;
@@ -221,6 +228,7 @@ hr{
     border-radius: 20px;
     padding: .6em .6em;
     display: flex;
+    align-items: flex-start;
 }
 .bc{
     background-color: rgb(116 140 216);
@@ -250,6 +258,15 @@ hr{
     transform: rotate(180deg);
     margin-top: -0.25em;
 }
-
-
 /* /Wave */
+
+/* Stars */
+.bg-stars{
+    width: 50%;
+    margin: 2em auto 0px;
+    padding: 1.5em 0px;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* /Stars */
